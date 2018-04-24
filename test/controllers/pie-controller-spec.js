@@ -27,7 +27,7 @@ describe("PieController", function() {
         expect($scope.slices).toEqual(0);
       });
     });
-
+    //this keyword
     describe("requestFlavor", function() {
       it("Should set $scope.lastRequestFlavor to the passed in argument", function() {
         controller.requestFlavor("Cherry");
@@ -41,6 +41,7 @@ describe("PieController", function() {
       expect($scope.slices).toEqual(8);
     });
 
+    
     it("Should instantiate $scope.lastRequestFlavor", function() {
       expect($scope.lastRequestedFlavor).toBeUndefined();
     })

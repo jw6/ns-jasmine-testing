@@ -26,7 +26,7 @@ describe("titleCase", function(){
   });
 
   it("Should change the casing of upper cased word", function(){
-    expect(filter("GEORGE HARRSION")).toEqual("George Harrison");
+    expect(filter("GEORGE HARRISON")).toEqual("George Harrison");
   });
 
   it("Should change the casing of random", function() {
